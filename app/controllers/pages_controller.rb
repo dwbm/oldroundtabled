@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def launch
-	@title = "bring everything to the table"
+	@title = "launch"
   end
 
 end

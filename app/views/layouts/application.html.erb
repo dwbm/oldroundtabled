@@ -2,26 +2,14 @@
 <html>
 	<head>
 	<meta charset=utf-8>
-	<title>RoundTabled | <%= @title %></title>
+	<title><%= title %></title>
 	<%= csrf_meta_tag %>
 	
 	<meta name="description" content="bring everything to the table">
 	<meta name="author" content="Daniel WB Mazzone">
-
-	<script src="javascripts/jquery.js"></script>
 	
-	<script src="javascripts/modernizr-1.7.min.js"></script><!-- this is the javascript allowing html5 to run in older browsers -->
+	<%= render 'layouts/stylesheets' %>
 
-	<link rel="stylesheet" type="text/css" href="stylesheets/reset.css" media="screen" />
-
-	<link rel="stylesheet" type="text/css" href="stylesheets/css3.css" media="screen" />
-
-	<link rel="stylesheet" type="text/css" href="stylesheets/general.css" media="screen" />
-
-	<link rel="stylesheet" type="text/css" href="stylesheets/grid.css" media="screen" />
-	
-	<link rel="stylesheet" href="stylesheets/style.css">
-	
 	</head>
 
 <body>
@@ -32,11 +20,7 @@
 	
 </section>
 
-<footer>
-	<!-- <p class="align_left small-text">&copy 2011 RoundTabled. RoundTabled is a product of specs labs.</p> -->
+<%= render 'layouts/footer' %>
 
-	<div class="clear"></div><!-- clear -->
-
-</footer><!-- footer -->
 </body>
 </html>
