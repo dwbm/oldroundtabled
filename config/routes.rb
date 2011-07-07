@@ -1,4 +1,6 @@
 Roundtabled::Application.routes.draw do
+  get "users/new"
+
   match '/launch' => 'pages#launch'
   
   root :to => 'pages#launch'
