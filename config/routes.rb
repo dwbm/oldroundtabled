@@ -1,4 +1,6 @@
 Roundtabled::Application.routes.draw do
+  get "pages/launch"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
